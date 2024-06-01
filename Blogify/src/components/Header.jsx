@@ -13,9 +13,8 @@ export default function Header() {
       >
         <span
           className="px-2 py-1 text-transparent bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-lg bg-clip-text"
-          style={{ fontFamily: "Times New Roman" }}
         >
-          MERN BLOGIFY
+         BLOGIFY
         </span>
       </Link>
 
@@ -36,7 +35,6 @@ export default function Header() {
         <Link to="/sign-in">
           <Button
             gradientDuoTone="purpleToBlue"
-            style={{ fontFamily: "Times New Roman" }}
           >
             Sign In
           </Button>
@@ -49,7 +47,6 @@ export default function Header() {
           <Link
             to="/"
             className="text-lg font-serif"
-            style={{ fontFamily: "Times New Roman" }}
           >
             Home
           </Link>
@@ -58,7 +55,6 @@ export default function Header() {
           <Link
             to="/about"
             className="text-lg font-serif"
-            style={{ fontFamily: "Times New Roman" }}
           >
             About
           </Link>
@@ -67,7 +63,6 @@ export default function Header() {
           <Link
             to="/projects"
             className="text-lg font-serif"
-            style={{ fontFamily: "Times New Roman" }}
           >
             Projects
           </Link>
